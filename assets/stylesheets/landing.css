@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css?family=EB+Garamond');
+
+html, body {
+  min-height: 100%;
+}
+
+body {
+  background: black;
+}
+
+.vert-align {
+  margin-top: 50vh;
+  transform: translateY(-45%);
+}
+
+#landing .gradient {
+  background: #e19d3c;
+  background: -webkit-linear-gradient(135deg, #fdda86, #e19d3c);
+  background: linear-gradient(135deg, #fdda86, #e19d3c);
+}
+
+#landing img.logo {
+  display: inline-block;
+  max-width: 140px;
+  position: relative;
+  top: -30px;
+}
+
+#landing h1 {
+  font-family: 'EB Garamond', serif;
+  font-size: 8em;
+  color: white;
+  font-weight: 100;
+  letter-spacing: 5px;
+}
+
+#landing h1.text-left {
+  display: inline-block;
+  padding-right: 35px;
+  color: white;
+}
+
+#landing h1.text-right {
+  display: inline-block;
+  padding-left: 40px;
+  color: white;
+}
